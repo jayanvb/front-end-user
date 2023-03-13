@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My data</title>
+    <script type = "text/javascript"  src = "script/script.js"></script>
+</head>
+
+<body id="updatepage">
+
+    <h1> update Data</h1>
+    <form action="javascript:void(0);" method="post" onsubmit="return getallupdatedata();">
+        <label for="username">UserName:</label><br>
+        <input type="text" id="username" name="username" value=""><br>
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email" value=""><br>
+        <label for="password">Password:</label><br>
+        <input type="text" id="password" name="password" value=""><br>
+        <label for="hobby">Hobby:</label><br>
+        <input type="text" id="hobby" name="hobby" value=""><br>
+        <select name="gender" id="gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select><br><br>
+        <input type="hidden" id="id" name="id">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
